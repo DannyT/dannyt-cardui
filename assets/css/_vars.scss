@@ -1,0 +1,30 @@
+
+
+/**
+ * Default baseline line height and spacing values
+ */
+$base-font-size:    16px!default;
+$base-line-height:  24px!default;
+$base-spacing-unit: $base-line-height;
+$half-spacing-unit: $base-spacing-unit / 2;
+
+
+/**
+ * Branding
+ */
+$background-color: #343838;
+$brand-color: #00b4cc;
+$content-color: #ADADAD;
+
+
+/**
+ * Fonts
+ */
+
+$content-font-family: "Trebuchet MS", Arial, sans-serif;
+$heading-font-family: "adelle", "Arial Black", serif;
+
+/**
+ * Headings
+ */
+ $h1-size: 48px;

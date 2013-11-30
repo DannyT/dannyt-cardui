@@ -1,0 +1,56 @@
+
+html {
+	background-color:$background-color;
+    color: $content-color;
+    font-family: $content-font-family;
+    font-size: 100%;
+    height: 100%;
+}
+
+body{
+	margin: 0;
+    padding: 0;	
+}
+
+img {
+	max-width:100%;
+	padding:0;
+	margin:0;
+}
+
+p{
+	padding:0 $half-spacing-unit;
+}
+
+.standard-spacing{
+	padding:0 $base-spacing-unit;
+}
+
+.menu-pinned{
+	background-color: $background-color;
+	position:absolute;
+	left:24px;
+	padding: $half-spacing-unit;
+	top:24px;
+}
+
+.intro{
+	color: $brand-color;
+	font-style:italic;
+}
+
+.main{
+	background-color: #e5e5e5;
+	padding: $base-spacing-unit;
+}
+
+.column{
+	max-width:100%;
+}
+
+.landing-card{
+	background-color: white;
+	border: 1px solid #d8d8d8;
+	color:$background-color;
+	margin-bottom: $base-spacing-unit;
+}
